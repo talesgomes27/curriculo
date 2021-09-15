@@ -1,0 +1,185 @@
+---
+title: "Curriculo Tales"
+author: Tales Gomes
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+#
+#Abaixo para mudar da verão Html para PDF (Precisa ser automatizado)
+#
+#A versão em pdf deste currículo pode ser encontrada #[**aqui**](https://github.com/rstudio/pagedown).
+#
+#A versão *on-line* deste currículo pode ser encontrada #[**aqui**](https://github.com/rstudio/pagedown).
+#
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+# Aside
+
+## Contatos {#contact}
+
+-   <i class="fas fa-map-marker-alt"></i> `Belém, Pará, Brasil.`
+-   <i class="fa fa-envelope"></i> [talesgomes27@gmail.com](mailto:talesgomes27@gmail.com){.email}
+-   <i class="fa fa-github"></i> [github.com/talesgomes27](https://github.com/talesgomes27)
+-   <i class="fas fa-globe"></i> [Site](https://blogdotales.netlify.app/)
+-   <i class="fa fa-phone"></i> +55 91 98406-9826
+-   Para mais infirmações, entre em contato por e-mail.
+
+
+## Habilidades {#skills}
+
+ 
+-   <i class="fab fa-r-project"></i> `R`
+-   <i class="fas fa-database"></i> `Sql`
+-   <i class="fas fa-table"></i> `Excel`
+-   <i class="fab fa-python"></i> `Python`
+-   <i class="fas fa-chart-line"></i> `Tableau`
+-   <i class="fab fa-markdown"></i> `Markdown`
+-   <i class="far fa-file-powerpoint"></i> `Power point`
+-   <i class="fab fa-github"></i> `Github`
+-   <i class="fab fa-linux"></i> `Linux`
+-   <i class="fab fa-windows"></i> `Windows`
+
+## Competências    {#skills}
+
+-   <i class="fas fa-users"></i> `Trabalho em equipe`
+-   <i class="fas fa-handshake"></i> `Responsabilidade`
+-   <i class="far fa-compass"></i> `Capacidade de adaptação`
+-   <i class="fas fa-chart-bar"></i> `Análise estatística de dados`
+-   <i class="fas fa-calculator"></i> `Forte base matemática`
+-   <i class="fas fa-user-cog"></i> `Raciocínio rápido`
+-   <i class="fas fa-user-check"></i> `Autonomia`
+
+
+A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://github.com/rstudio/pagedown).
+
+# Main
+
+## Tales W. Gomes da Silva {#title}
+
+### Análista de dados
+
+**Objetivo aqui**
+
+## Experiência Profissional {data-icon="suitcase"}
+
+### Servidor Público
+
+Tribunal de justiça do Estado do Pará
+
+Pará, Brasil
+
+2013 - Atualmente
+
+::: {.concise}
+-   Atendimento ao Público
+-   Confecção de documentos: certidões, mandados, ofícios e outros.
+-   Análise de processos judiciais
+:::
+
+
+## Projetos {data-icon="chart-bar"}
+
+### Estudo de caso: Bikeshare, uma empresa de compartilhamento de bicicletas
+
+
+Este projeto faz parte do certificado profissional do Google em análise de dados no Coursera e visa analisar uma base de dados de 12 meses de uso da empresa Bikeshare de modo a entender a diferença de membros e não membros, em relação à utilização do serviço, para assim tecer recomendações à equipe de *marketing*.
+
+::: {.concise}
+-   [Link para o projeto](https://talesgomes27.github.io/DAC8-Case-Study-1/bikeshare_dac8.html)
+-   [link para o código](https://github.com/talesgomes27/DAC8-Case-Study-1)
+:::
+
+ 
+### História olímpica do Brasil de 1948  a 2016: Estudo sobre a participação olímpica feminina brasileira
+
+
+Este trabalho foi feito a partir do [tidytuesday](https://github.com/rfordatascience/tidytuesday) do ano de 2021, semana 31 e objetiva investigar a participação feminina olímpica do Brasil no período de 1948 a 2016 e como essa participação difere da média olímpica, se comparada a países pares.
+
+
+::: {.concise}
+-   [Link para o projeto](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html)
+-   [link para o código](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
+:::
+
+
+### Estudo de caso Bellabeats
+
+
+Este trabalho foi feito com base no kaggle [*FitBit Fitness Tracker Data*](https://www.kaggle.com/arashnic/fitbit) e nele procuro tendências de uso em um  banco de dados que contém dados de 33 usuários, provenientes do *Fitibit*, um fitness tracker da *Bellabeats*.
+
+
+::: {.concise}
+-   [Link para o projeto](https://blogdotales.netlify.app/blog/2021-09-10-bellabeat/)
+-   [link para o código](https://github.com/talesgomes27/blog/tree/main/content/blog/2021-09-10-bellabeat)
+:::
+
+## Cursos {data-icon="laptop"}
+
+### Certificado Profissional em Análise de dados do Google
+
+Coursera/Google
+
+[*on-line*](https://coursera.org/share/b8f00a8635126ef11eed8b4564c64cde)
+
+2021
+
+
+
+### As Ferramentas do Cientista de Dados
+
+Coursera
+
+[*on-line*](https://coursera.org/share/68bbd792642e5ab8fb9fecaff748c250)
+
+2021
+
+
+### Relatórios e visualização de dados
+
+Curso-r
+
+[*on-line*](https://curso-r.com/cursos/visualizacao/)
+
+2021
+
+### Dashboards com Shiny
+
+Curso-r
+
+[*on-line*](https://curso-r.com/cursos/dashboards/)
+
+Em andamento
+
+
+
+## Formação {data-icon="graduation-cap" data-concise="true"}
+
+### Bacharelado em Engenharia da Computação
+
+Universidade Federal do Pará
+
+Pará, Brasil
+
+2009 - 2016
+
+
+### Curso técnico em Mecânica, integrado ao ensino médio
+
+Instituto Federal de Educação, Ciência e Tecnologia do Pará
+
+Pará, Brasil
+
+2005 - 2008
+
+
+
+
+
+
+
+
+
