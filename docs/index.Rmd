@@ -24,7 +24,8 @@ output:
 -   <i class="fas fa-map-marker-alt"></i> `Belém, Pará, Brasil.`
 -   <i class="fa fa-envelope"></i> [talesgomes27@gmail.com](mailto:talesgomes27@gmail.com){.email}
 -   <i class="fa fa-github"></i> [github.com/talesgomes27](https://github.com/talesgomes27)
--   <i class="fas fa-globe"></i> [Site](https://blogdotales.netlify.app/)
+-   <i class="fa fa-linkedin"></i> [linkedin.com/in/talesgomes27](https://www.linkedin.com/in/talesgomes27/)
+-   <i class="fas fa-globe"></i> [blogdotales.netlify.app](https://blogdotales.netlify.app/)
 -   <i class="fa fa-phone"></i> +55 91 98406-9826
 -   Para mais infirmações, entre em contato por e-mail.
 
@@ -62,13 +63,13 @@ A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://tale
 
 ### Business Analyst
 
-Meu objetivo é, finalmente, levar minha vida profissional para a carreira que sempre almejei, na área de dados, na qual vislumbro a possibilidade de trabalhar em um ambiente onde haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão e os valores da empresa. Precisei passar os últimos anos trabalhando no serviço público, desempenhando atividades não atreladas a área de dados, mas continuei estudando, buscando conhecimento e qualificação para realizar a transição de carreira que espero agora concretizar por meio dessa vaga de *business analyst*.
+Meu objetivo é levar minha vida profissional para a carreira na área de dados. Na XP, como  *business analyst*, vislumbro a possibilidade de trabalhar em um ambiente em que haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão, misão e valores da empresa, com os quais me identifico. Precisei passar os últimos anos trabalhando no serviço público, desempenhando atividades não atreladas a área de dados, mas continuei estudando, buscando conhecimento e qualificação para realizar a transição de carreira, o que espero agora concretizar por meio dessa vaga.
 
 ## Experiência Profissional {data-icon="suitcase"}
 
 ### Servidor Público
 
-Tribunal de justiça do Estado do Pará
+Tribunal de Justiça do Estado do Pará
 
 Pará, Brasil
 
@@ -77,27 +78,27 @@ Pará, Brasil
 ::: {.concise}
 -   Atendimento ao Público
 -   Confecção de documentos: certidões, mandados, ofícios e outros.
--   Análise de processos judiciais
+-   Análise de processos judiciais.
 :::
 
 
 ## Projetos {data-icon="chart-bar"}
 
-### Estudo de caso: Bikeshare, uma empresa de compartilhamento de bicicletas
+### Bikeshare: uma empresa de compartilhamento de bicicletas.
 
 
-Este projeto faz parte do certificado profissional do Google em análise de dados no Coursera e visa analisar uma base de dados de 12 meses de uso da empresa Bikeshare de modo a entender a diferença de membros e não membros, em relação à utilização do serviço, para assim tecer recomendações à equipe de *marketing*.
+Projeto desenvolvido para aquisição do certificado profissional em análise de dados, através da plataforma Coursera, sob a instrução da Google. Nele foram coletados, ao longo de 12 meses, dados acerca dos usuários membros assinantes do serviço oferecido pela empresa Bikeshare e usuários avulsos, de modo a identificar a diferença entre os dois grupos quanto a forma de utilização do serviço, visando à elaboração de recomendações para a equipe de marketing da empresa. 
 
 ::: {.concise}
--   [Link para o projeto](https://talesgomes27.github.io/DAC8-Case-Study-1/bikeshare_dac8.html)
+-   [Link para o projeto](https://talesgomes27.github.io/DAC8-Case-Study-1/)
 -   [link para o código](https://github.com/talesgomes27/DAC8-Case-Study-1)
 :::
 
  
-### História olímpica do Brasil de 1948  a 2016: Estudo sobre a participação olímpica feminina brasileira
+### Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.
 
 
-Este trabalho foi feito a partir do [tidytuesday](https://github.com/rfordatascience/tidytuesday) do ano de 2021, semana 31 e objetiva investigar a participação feminina olímpica do Brasil no período de 1948 a 2016 e como essa participação difere da média olímpica, se comparada a países pares.
+Análise realizada a partir do [tidytuesday](https://github.com/rfordatascience/tidytuesday), do ano de 2021, semana 31, que objetiva investigar a participação feminina olímpica do Brasil no período de 1948 a 2016 e como essa participação difere da média olímpica quando comparada a países pares.
 
 
 ::: {.concise}
@@ -106,10 +107,10 @@ Este trabalho foi feito a partir do [tidytuesday](https://github.com/rfordatasci
 :::
 
 
-### Estudo de caso Bellabeats
+### O caso Bellabeats.
 
 
-Este trabalho foi feito com base no kaggle [*FitBit Fitness Tracker Data*](https://www.kaggle.com/arashnic/fitbit) e nele procuro tendências de uso em um  banco de dados que contém dados de 33 usuários, provenientes do *Fitibit*, um fitness tracker da *Bellabeats*.
+Trabalho realizado buscando a melhoria do funcionamento do Fitibit, um fitness Tracker da Belabeats, através da identificação de tendências de uso. Para tanto foram analisados os dados contidos na base do kaggle [*FitBit Fitness Tracker Data*](https://www.kaggle.com/arashnic/fitbit) acerca de 33 usuários.
 
 
 ::: {.concise}
@@ -119,7 +120,7 @@ Este trabalho foi feito com base no kaggle [*FitBit Fitness Tracker Data*](https
 
 ## Cursos {data-icon="laptop"}
 
-### Certificado Profissional em Análise de dados do Google
+### Certificado Profissional em Análise de dados da Google.
 
 Coursera/Google
 
@@ -138,7 +139,7 @@ Coursera
 2021
 
 
-### Relatórios e visualização de dados
+### Relatórios e visualização de dados.
 
 Curso-r
 
@@ -167,9 +168,9 @@ Pará, Brasil
 2009 - 2016
 
 
-### Curso técnico em Mecânica, integrado ao ensino médio
+### Curso Técnico em Mecânica, integrado ao ensino médio.
 
-Instituto Federal de Educação, Ciência e Tecnologia do Pará
+Instituto Federal de Educação, Ciência e Tecnologia do Pará.
 
 Pará, Brasil
 
