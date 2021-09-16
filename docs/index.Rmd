@@ -54,7 +54,7 @@ output:
 -   <i class="fas fa-user-check"></i> `Autonomia`
 
 
-A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://github.com/rstudio/pagedown).
+A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://talesgomes27.github.io/curriculo/).
 
 # Main
 
