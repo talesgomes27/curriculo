@@ -60,9 +60,9 @@ A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://tale
 
 ## Tales W. Gomes da Silva {#title}
 
-### Análista de dados
+### Business Analyst
 
-**Objetivo aqui**
+Meu objetivo é, finalmente, levar minha vida profissional para a carreira que sempre almejei, na área de dados, na qual vislumbro a possibilidade de trabalhar em um ambiente onde haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão e os valores da empresa. Precisei passar os últimos anos trabalhando no serviço público, desempenhando atividades não atreladas a área de dados, mas continuei estudando, buscando conhecimento e qualificação para realizar a transição de carreira que espero agora concretizar por meio dessa vaga de *business analyst*.
 
 ## Experiência Profissional {data-icon="suitcase"}
 
