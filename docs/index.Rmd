@@ -106,6 +106,16 @@ Análise realizada a partir do [tidytuesday](https://github.com/rfordatascience/
 -   [link para o código](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
 :::
 
+### Focos de incêndios no Brasil de 1998 a 2017.
+
+Neste projeto utilizo o banco de dados do kaggle ([Forest Fires in Brazil](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil)) que contém o número de focos de incêndios em florestas brasileiras do ano de 1998 até 2017, com objetivo de encontrar padrões nos dados, além de treinar visualizações com mapas e confecção de dashboards.
+
+
+::: {.concise}
+-   [Link para o projeto](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html)
+-   [link para o código](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil)
+-   [link Tableau](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
+:::
 
 ### O caso Bellabeats.
 
