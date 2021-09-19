@@ -63,7 +63,7 @@ A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://tale
 
 ### Business Analyst
 
-Meu objetivo é levar minha vida profissional para a carreira na área de dados. Na XP, como  *business analyst*, vislumbro a possibilidade de trabalhar em um ambiente em que haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão, misão e valores da empresa, com os quais me identifico. Precisei passar os últimos anos trabalhando no serviço público, desempenhando atividades não atreladas a área de dados, mas continuei estudando, buscando conhecimento e qualificação para realizar a transição de carreira, o que espero agora concretizar por meio dessa vaga.
+Meu objetivo é realizar minha transição de carreira: do serviço público para a análise de dados. Na XP, como  *business analyst*, vislumbro a possibilidade de trabalhar em um ambiente em que haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão, missão e valores da empresa, com os quais me identifico. Precisei passar os últimos anos trabalhando no serviço público, pois ainda na graduação o concurso surgiu como uma oportunidade de suporte financeiro. Contudo, após o término do curso de engenharia da computação, permaneci no cargo público, sem abrir mão de dar continuidade na minha qualificação voltada para a área de dados. Na atual posição profissional percebo que já explorei todas as vias de desenvolvimento, porém preciso de mais, de novos desafios. Como engenheiro da computação sempre fui fascinado por números e resolução de problemas e me candidato a presente vaga de *business analyst* com a expectativa de evoluir, progredir e agregar.
 
 ## Experiência Profissional {data-icon="suitcase"}
 
@@ -108,7 +108,8 @@ Análise realizada a partir do [tidytuesday](https://github.com/rfordatascience/
 
 ### Focos de incêndios no Brasil de 1998 a 2017.
 
-Neste projeto utilizo o banco de dados do kaggle ([Forest Fires in Brazil](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil)) que contém o número de focos de incêndios em florestas brasileiras do ano de 1998 até 2017, com objetivo de encontrar padrões nos dados, além de treinar visualizações com mapas e confecção de dashboards.
+Neste projeto utilizo o banco de dados do kaggle ([Forest Fires in Brazil](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil) que contém o número de focos de incêndios em florestas brasileiras do ano de 1998 até 2017, com objetivo de encontrar padrões nos dados, além de treinar visualizações com mapas e confecção de dashboards.
+
 
 
 ::: {.concise}
@@ -124,7 +125,7 @@ Trabalho realizado buscando a melhoria do funcionamento do Fitibit, um fitness T
 
 
 ::: {.concise}
--   [Link para o projeto](https://blogdotales.netlify.app/blog/2021-09-10-bellabeat/)
+-   [Link para o projeto](https://blogdotales.netlify.app/post/2021-09-10-bellabeat/)
 -   [link para o código](https://github.com/talesgomes27/blog/tree/main/content/blog/2021-09-10-bellabeat)
 :::
 
