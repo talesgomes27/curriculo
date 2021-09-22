@@ -14,7 +14,13 @@ output:
 #A versão *on-line* deste currículo pode ser encontrada #[**aqui**](https://github.com/rstudio/pagedown).
 #
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
+
+#Objetivo
+#Meu objetivo é realizar minha transição de carreira: do serviço público para a análise de dados. Na XP, como  *business analyst*, vislumbro a possibilidade de trabalhar em um ambiente em que haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão, missão e valores da empresa, com os quais me identifico. Precisei passar os últimos anos trabalhando no serviço público, pois ainda na graduação o concurso surgiu como uma oportunidade de suporte financeiro. Contudo, após o término do curso de engenharia da computação, permaneci no cargo público, sem abrir mão de dar continuidade na minha qualificação voltada para a área de dados. Na atual posição profissional percebo que já explorei todas as vias de desenvolvimento, porém preciso de mais, de novos desafios. Como engenheiro da computação sempre fui fascinado por números e resolução de problemas e me candidato a presente vaga de *business analyst* com a expectativa de evoluir, progredir e agregar.
+
+
+
 ---
 
 # Aside
@@ -63,7 +69,6 @@ A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://tale
 
 ### Business Analyst
 
-Meu objetivo é realizar minha transição de carreira: do serviço público para a análise de dados. Na XP, como  *business analyst*, vislumbro a possibilidade de trabalhar em um ambiente em que haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão, missão e valores da empresa, com os quais me identifico. Precisei passar os últimos anos trabalhando no serviço público, pois ainda na graduação o concurso surgiu como uma oportunidade de suporte financeiro. Contudo, após o término do curso de engenharia da computação, permaneci no cargo público, sem abrir mão de dar continuidade na minha qualificação voltada para a área de dados. Na atual posição profissional percebo que já explorei todas as vias de desenvolvimento, porém preciso de mais, de novos desafios. Como engenheiro da computação sempre fui fascinado por números e resolução de problemas e me candidato a presente vaga de *business analyst* com a expectativa de evoluir, progredir e agregar.
 
 ## Experiência Profissional {data-icon="suitcase"}
 
