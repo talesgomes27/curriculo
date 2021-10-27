@@ -19,7 +19,14 @@ output:
 #Objetivo
 #Meu objetivo é realizar minha transição de carreira: do serviço público para a análise de dados. Na XP, como  *business analyst*, vislumbro a possibilidade de trabalhar em um ambiente em que haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão, missão e valores da empresa, com os quais me identifico. Precisei passar os últimos anos trabalhando no serviço público, pois ainda na graduação o concurso surgiu como uma oportunidade de suporte financeiro. Contudo, após o término do curso de engenharia da computação, permaneci no cargo público, sem abrir mão de dar continuidade na minha qualificação voltada para a área de dados. Na atual posição profissional percebo que já explorei todas as vias de desenvolvimento, porém preciso de mais, de novos desafios. Como engenheiro da computação sempre fui fascinado por números e resolução de problemas e me candidato a presente vaga de *business analyst* com a expectativa de evoluir, progredir e agregar.
 
-
+## Competências    {#skills}
+#-   <i class="fas fa-users"></i> `Trabalho em equipe`
+#-   <i class="fas fa-handshake"></i> `Responsabilidade`
+#-   <i class="far fa-compass"></i> `Capacidade de adaptação`
+#-   <i class="fas fa-chart-bar"></i> `Análise estatística de dados`
+#-   <i class="fas fa-calculator"></i> `Forte base matemática`
+#-   <i class="fas fa-user-cog"></i> `Raciocínio rápido`
+#-   <i class="fas fa-user-check"></i> `Autonomia`
 
 ---
 
@@ -50,15 +57,6 @@ output:
 -   <i class="fab fa-linux"></i> `Linux`
 -   <i class="fab fa-windows"></i> `Windows`
 
-## Competências    {#skills}
-
--   <i class="fas fa-users"></i> `Trabalho em equipe`
--   <i class="fas fa-handshake"></i> `Responsabilidade`
--   <i class="far fa-compass"></i> `Capacidade de adaptação`
--   <i class="fas fa-chart-bar"></i> `Análise estatística de dados`
--   <i class="fas fa-calculator"></i> `Forte base matemática`
--   <i class="fas fa-user-cog"></i> `Raciocínio rápido`
--   <i class="fas fa-user-check"></i> `Autonomia`
 
 
 A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://talesgomes27.github.io/curriculo/).
@@ -67,7 +65,7 @@ A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://tale
 
 ## Tales W. Gomes da Silva {#title}
 
-### Business Analyst
+### Analista de dados
 
 
 ## Experiência Profissional {data-icon="suitcase"}
@@ -136,6 +134,32 @@ Trabalho realizado buscando a melhoria do funcionamento do Fitibit, um fitness T
 
 ## Cursos {data-icon="laptop"}
 
+### Data Analyst with R Track
+
+Datacamp
+
+[*on-line*](https://www.datacamp.com/statement-of-accomplishment/track/741d51b812064aa5d25006d194342bad0d3344db)
+
+2021
+
+### Data Science for Everyone
+
+Datacamp
+
+[*on-line*](https://www.datacamp.com/statement-of-accomplishment/course/7886ffe5588d979195cdfc398f232235b0e20c81)
+
+2021
+
+### Joining Data in SQL
+
+Datacamp
+
+[*on-line*](https://www.datacamp.com/statement-of-accomplishment/course/6f4e7c7609151a1e1b37416cafe2fbaa31d0d0f4)
+
+2021
+
+
+
 ### Certificado Profissional em Análise de dados da Google.
 
 Coursera/Google
@@ -169,7 +193,7 @@ Curso-r
 
 [*on-line*](https://curso-r.com/cursos/dashboards/)
 
-Em andamento
+2021
 
 
 
