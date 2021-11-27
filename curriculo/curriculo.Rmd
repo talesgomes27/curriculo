@@ -1,0 +1,113 @@
+---
+name: Tales
+surname: Gomes
+position: "Analista de Dados"
+address: "Belém, Pará, Brasil."
+phone: +55 91 98406 9826
+www: blogdotales.netlify.app
+email: "talesgomes27@gmail.com"
+#twitter: talesgomes27
+github: talesgomes27
+linkedin: talesgomes27
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Experiência Profissional
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Servidor Público", "2013-Atualmente", "Tribunal de Justiça do Estado do Pará", "Pará, Brasil"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where)
+``` 
+
+
+# Projetos
+
+ * **Bikeshare: uma empresa de compartilhamento de bicicletas.**
+    * [*Link para o projeto*](https://talesgomes27.github.io/DAC8-Case-Study-1/)
+    * [*Link para o código*](https://github.com/talesgomes27/DAC8-Case-Study-1)
+ * **Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.**
+    * [*Link para o projeto*](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html)
+    * [*Link para o código*](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
+ * **Focos de incêndios no Brasil de 1998 a 2017.**
+    * [*Link para o projeto*](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html)
+    * [*Link para o código*](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil)
+    * [*Link para Tableau*](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
+    
+ 
+
+
+# Formação
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bacharelado em Engenharia da Computação", "2009-2016", "Universidade Federal do Pará", "Pará, Brasil",
+  "Curso Técnico em Mecânica, integrado ao ensino médio", "2005-2008", "Instituto Federal de Educação, Ciência e Tecnologia do Pará", "Pará, Brasil"
+) %>% 
+  #brief_entries(Degree, Year, Institution, Where)
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Cursos
+
+```{r}
+library(tibble)
+tribble(
+  ~ Course, ~ Year, ~ Institution,
+  "Data Analyst with R Track", "2021", "Datacamp",
+  "Certificado Profissional em Análise de dados da Google", "2021", "Coursera/Google",
+  "Data Visualization with R Track", "2021", "Datacamp",
+  "Joining Data in SQL", "2021", "Datacamp",
+  "Relatórios e visualização de dados", "2021", "Curso-r",
+  "Dashboards com Shiny", "2021", "Curso-r"
+) %>% 
+  brief_entries(Course, Year, Institution)
+  #detailed_entries(Course, Year, Institution)
+```
+
+
+
+
+
+
+
+
+
+```{r eval=FALSE, include=FALSE}
+# Nobel Prizes
+
+tribble(
+  ~Year, ~Type, ~Desc,
+  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+
+
+```{r eval=FALSE, include=FALSE}
+# Publications
+
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
+
