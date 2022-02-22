@@ -30,12 +30,23 @@ tribble(
 ``` 
 
 
+<<<<<<< HEAD
 # Projetos    
   * **Bikeshare: uma empresa de compartilhamento de bicicletas.** [[*Link para o projeto]*](https://talesgomes27.github.io/DAC8-Case-Study-1/) [*[Link para o código]*](https://github.com/talesgomes27/DAC8-Case-Study-1)
   * **Heart attack dataset modeling analysis** [*[Link para o projeto]*](https://talesgomes27.github.io/kaggle/kaggle/heart-attack-analysis/heart_attack_analysis.html) [*[Link para o código]*](https://github.com/talesgomes27/kaggle/tree/main/kaggle/heart-attack-analysis)
   * **Dashboard (Shiny/R) - Nasa fireball events** [*[Link para o projeto]*](https://talesgomes27.shinyapps.io/nasa_fireball/) [*[Link para o código]*](https://github.com/talesgomes27/nasa_fireball)
   * **Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.** [*[Link para o projeto]*](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html) [*[Link para o código]*](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
   * **Focos de incêndios no Brasil de 1998 a 2017.** [*[Link para o projeto]*](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html) [*[Link para o código]*](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil) [*[Link para Tableau]*](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
+=======
+# Projetos
+
+ * **Bikeshare: uma empresa de compartilhamento de bicicletas.**
+    * [*Link para o projeto*](https://talesgomes27.github.io/DAC8-Case-Study-1/)  | [*Link para o código*](https://github.com/talesgomes27/DAC8-Case-Study-1)
+ * **Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.**
+    * [*Link para o projeto*](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html)  |  [*Link para o código*](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
+ * **Focos de incêndios no Brasil de 1998 a 2017.**
+    * [*Link para o projeto*](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html)  |  [*Link para o código*](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil)  |  [*Link para Tableau*](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
+>>>>>>> 43b112913b26061f61c6ce0fbcc5d341e0c9438a
     
  
 
@@ -46,6 +57,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Formação Cientita de dados", "2021-2022", "Data Science Academy", "Online",
   "Bacharelado em Engenharia da Computação", "2009-2016", "Universidade Federal do Pará", "Pará, Brasil",
   "Curso Técnico em Mecânica, integrado ao ensino médio", "2005-2008", "Instituto Federal de Educação, Ciência e Tecnologia do Pará", "Pará, Brasil"
 ) %>% 
@@ -60,7 +72,10 @@ library(tibble)
 tribble(
   ~ Course, ~ Year, ~ Institution,
   "Big Data Analytics com R e Microsoft Azure Machine Learning", "2022", "Data Science Academy",
+<<<<<<< HEAD
   "Data Scientist with R Track", "2022", "Datacamp",
+=======
+>>>>>>> 43b112913b26061f61c6ce0fbcc5d341e0c9438a
   "Data Analyst with R Track", "2021", "Datacamp",
   "Certificado Profissional em Análise de dados da Google", "2021", "Coursera/Google",
   "Data Visualization with R Track", "2021", "Datacamp",

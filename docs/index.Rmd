@@ -63,76 +63,69 @@ A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://tale
 
 # Main
 
-## Tales W. Gomes da Silva {#title}
+## Tales Gomes {#title}
 
-### Analista de dados
-
-
-## Experiência Profissional {data-icon="suitcase"}
-
-### Servidor Público
-
-Tribunal de Justiça do Estado do Pará
-
-Pará, Brasil
-
-2013 - Atualmente
-
-::: {.concise}
--   Atendimento ao Público
--   Confecção de documentos: certidões, mandados, ofícios e outros.
--   Análise de processos judiciais.
-:::
-
+### Cientista de dados
 
 ## Projetos {data-icon="chart-bar"}
 
 ### Bikeshare: uma empresa de compartilhamento de bicicletas.
 
 
-Projeto desenvolvido para aquisição do certificado profissional em análise de dados, através da plataforma Coursera, sob a instrução da Google. Nele foram coletados, ao longo de 12 meses, dados acerca dos usuários membros assinantes do serviço oferecido pela empresa Bikeshare e usuários avulsos, de modo a identificar a diferença entre os dois grupos quanto a forma de utilização do serviço, visando à elaboração de recomendações para a equipe de marketing da empresa. 
+Projeto desenvolvido para aquisição do certificado profissional em análise de dados, através da plataforma Coursera, sob a instrução da Google. Nele foram coletados, ao longo de 12 meses, dados acerca dos usuários membros assinantes do serviço oferecido pela empresa Bikeshare e usuários avulsos, de modo a identificar a diferença entre os dois grupos quanto a forma de utilização do serviço, visando à elaboração de recomendações para a equipe de marketing da empresa. [[Link para o projeto]](https://talesgomes27.github.io/DAC8-Case-Study-1/) [[link para o código]](https://github.com/talesgomes27/DAC8-Case-Study-1)
 
 ::: {.concise}
--   [Link para o projeto](https://talesgomes27.github.io/DAC8-Case-Study-1/)
--   [link para o código](https://github.com/talesgomes27/DAC8-Case-Study-1)
+*on-line*
 :::
 
  
 ### Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.
 
 
-Análise realizada a partir do [tidytuesday](https://github.com/rfordatascience/tidytuesday), do ano de 2021, semana 31, que objetiva investigar a participação feminina olímpica do Brasil no período de 1948 a 2016 e como essa participação difere da média olímpica quando comparada a países pares.
+Análise realizada a partir do [tidytuesday](https://github.com/rfordatascience/tidytuesday), do ano de 2021, semana 31, que objetiva investigar a participação feminina olímpica do Brasil no período de 1948 a 2016 e como essa participação difere da média olímpica quando comparada a países pares. [[Link para o projeto]](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html) [[link para o código]](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
 
 
 ::: {.concise}
--   [Link para o projeto](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html)
--   [link para o código](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
+*on-line*
 :::
 
 ### Focos de incêndios no Brasil de 1998 a 2017.
 
-Neste projeto utilizo o banco de dados do kaggle ([Forest Fires in Brazil](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil) que contém o número de focos de incêndios em florestas brasileiras do ano de 1998 até 2017, com objetivo de encontrar padrões nos dados, além de treinar visualizações com mapas e confecção de dashboards.
+Neste projeto utilizo o banco de dados do kaggle ([Forest Fires in Brazil](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil) que contém o número de focos de incêndios em florestas brasileiras do ano de 1998 até 2017, com objetivo de encontrar padrões nos dados, além de treinar visualizações com mapas e confecção de dashboards. [[Link para o projeto]](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html) [[Link para o código]](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil) [[Link Tableau]](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
 
 
 
 ::: {.concise}
--   [Link para o projeto](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html)
--   [link para o código](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil)
--   [link Tableau](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
+*on-line*  
 :::
 
 ### O caso Bellabeats.
 
 
-Trabalho realizado buscando a melhoria do funcionamento do Fitibit, um fitness Tracker da Belabeats, através da identificação de tendências de uso. Para tanto foram analisados os dados contidos na base do kaggle [*FitBit Fitness Tracker Data*](https://www.kaggle.com/arashnic/fitbit) acerca de 33 usuários.
+Trabalho realizado buscando a melhoria do funcionamento do Fitibit, um fitness Tracker da Belabeats, através da identificação de tendências de uso. Para tanto foram analisados os dados contidos na base do kaggle [*FitBit Fitness Tracker Data*](https://www.kaggle.com/arashnic/fitbit) acerca de 33 usuários. [[Link para o projeto]](https://blogdotales.netlify.app/post/2021-09-10-bellabeat/) [[Link para o código]](https://github.com/talesgomes27/blog/tree/main/content/blog/2021-09-10-bellabeat)
 
 
 ::: {.concise}
--   [Link para o projeto](https://blogdotales.netlify.app/post/2021-09-10-bellabeat/)
--   [link para o código](https://github.com/talesgomes27/blog/tree/main/content/blog/2021-09-10-bellabeat)
+*on-line*    
 :::
 
 ## Cursos {data-icon="laptop"}
+
+### Big Data Analytics com R e Microsoft Azure Machine Learning
+
+Data Science Academy
+
+[*on-line*](https://drive.google.com/file/d/1A-UYJCoR1tN-tBXzlY7l7kEcW3eWngsU/view)
+
+2022
+
+### Data Scientist with R Track
+
+Datacamp
+
+[*on-line*](https://www.datacamp.com/statement-of-accomplishment/track/a9016d69abe20cb29a67dd90d47fb4da72820653)
+
+2022
 
 ### Data Analyst with R Track
 
@@ -216,6 +209,22 @@ Pará, Brasil
 
 2005 - 2008
 
+
+## Experiência Profissional {data-icon="suitcase"}
+
+### Servidor Público
+
+Tribunal de Justiça do Estado do Pará
+
+Pará, Brasil
+
+2013 - Atualmente
+
+::: {.concise}
+-   Atendimento ao Público
+-   Confecção de documentos: certidões, mandados, ofícios e outros.
+-   Análise de processos judiciais.
+:::
 
 
 
