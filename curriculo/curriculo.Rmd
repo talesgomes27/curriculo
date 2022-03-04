@@ -24,7 +24,7 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Servidor Público", "2013-Atualmente", "Tribunal de Justiça do Estado do Pará", "Pará, Brasil"
+  "Auxiliar Judiciário", "2013-Atualmente", "Tribunal de Justiça do Estado do Pará", "Pará, Brasil"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where)
 ``` 
