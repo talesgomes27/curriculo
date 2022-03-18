@@ -1,6 +1,6 @@
 ---
-name: Tales
-surname: Gomes
+name: Tales Wilhame
+surname: Gomes da Silva
 position: "Analista de Dados"
 address: "Belém, Pará, Brasil."
 phone: +55 91 98406 9826
@@ -10,7 +10,8 @@ email: "talesgomes27@gmail.com"
 github: talesgomes27
 linkedin: talesgomes27
 date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::moderncv
+#output: vitae::moderncv
+output: vitae::awesomecv
 ---
 
 ```{r setup, include=FALSE}
