@@ -59,7 +59,7 @@ library(tibble)
 tribble(
   ~ Course, ~ Year, ~ Institution,
   "Big Data Analytics com R e Microsoft Azure Machine Learning", "2022", "Data Science Academy",
-  "Python Fundamentos Para Análise de Dados", "2022", "Data Science Academy",
+  #"Python Fundamentos Para Análise de Dados", "2022", "Data Science Academy",
   "Data Analyst with R Track", "2021", "Datacamp",
   "Certificado Profissional em Análise de dados da Google", "2021", "Coursera/Google",
   "Data Visualization with R Track", "2021", "Datacamp",
