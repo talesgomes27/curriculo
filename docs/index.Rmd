@@ -30,6 +30,9 @@ output:
 
 ---
 
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+
 # Aside
 
 ## Contatos {#contact}
@@ -38,7 +41,8 @@ output:
 -   <i class="fa fa-envelope"></i> [talesgomes27@gmail.com](mailto:talesgomes27@gmail.com){.email}
 -   <i class="fa fa-github"></i> [github.com/talesgomes27](https://github.com/talesgomes27)
 -   <i class="fa fa-linkedin"></i> [linkedin.com/in/talesgomes27](https://www.linkedin.com/in/talesgomes27/)
--   <i class="fas fa-globe"></i> [blogdotales.netlify.app](https://blogdotales.netlify.app/)
+-   <i class="fas fa-globe"></i> [https://talesgomes.netlify.app](https://talesgomes.netlify.app/)
+-   <span class="iconify" data-icon="simple-icons:datacamp"></span> [Datacamp profile](https://www.datacamp.com/profile/talesgomes27)
 -   <i class="fa fa-phone"></i> +55 91 98406-9826
 -   Para mais infirmações, entre em contato por e-mail.
 
@@ -46,16 +50,16 @@ output:
 ## Habilidades {#skills}
 
  
--   <i class="fab fa-r-project"></i> `R`
--   <i class="fas fa-database"></i> `Sql`
--   <i class="fas fa-table"></i> `Excel`
--   <i class="fab fa-python"></i> `Python`
--   <i class="fas fa-chart-line"></i> `Tableau`
--   <i class="fab fa-markdown"></i> `Markdown`
--   <i class="far fa-file-powerpoint"></i> `Power point`
--   <i class="fab fa-github"></i> `Github`
--   <i class="fab fa-linux"></i> `Linux`
--   <i class="fab fa-windows"></i> `Windows`
+-   <span class="iconify" data-icon="logos:r-lang"></span> `R`
+-   <span class="iconify" data-icon="ant-design:console-sql-outlined"></span> `Sql`
+-   <span class="iconify" data-icon="logos:python"></span> `Python`
+-   <span class="iconify" data-icon="logos:tableau-icon"></span> `Tableau`
+-   <span class="iconify" data-icon="logos:microsoft-power-bi"></span> `Power BI`
+-   <span class="iconify" data-icon="file-icons:microsoft-excel"></span> `Excel`
+-   <span class="iconify" data-icon="file-icons:microsoft-powerpoint"></span> `Powerpoint`
+-   <span class="iconify" data-icon="bi:git"></span> `Git`
+-   <span class="iconify" data-icon="cib:linux"></span> `Linux`
+-   <span class="iconify" data-icon="bi:windows"></span> `Windows`
 
 
 
@@ -65,128 +69,7 @@ A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://tale
 
 ## Tales Gomes {#title}
 
-### Cientista de dados
-
-## Projetos {data-icon="chart-bar"}
-
-### Bikeshare: uma empresa de compartilhamento de bicicletas.
-
-
-Projeto desenvolvido para aquisição do certificado profissional em análise de dados, através da plataforma Coursera, sob a instrução da Google. Nele foram coletados, ao longo de 12 meses, dados acerca dos usuários membros assinantes do serviço oferecido pela empresa Bikeshare e usuários avulsos, de modo a identificar a diferença entre os dois grupos quanto a forma de utilização do serviço, visando à elaboração de recomendações para a equipe de marketing da empresa. [[Link para o projeto]](https://talesgomes27.github.io/DAC8-Case-Study-1/) [[link para o código]](https://github.com/talesgomes27/DAC8-Case-Study-1)
-
-::: {.concise}
-*on-line*
-:::
-
- 
-### Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.
-
-
-Análise realizada a partir do [tidytuesday](https://github.com/rfordatascience/tidytuesday), do ano de 2021, semana 31, que objetiva investigar a participação feminina olímpica do Brasil no período de 1948 a 2016 e como essa participação difere da média olímpica quando comparada a países pares. [[Link para o projeto]](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html) [[link para o código]](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
-
-
-::: {.concise}
-*on-line*
-:::
-
-### Focos de incêndios no Brasil de 1998 a 2017.
-
-Neste projeto utilizo o banco de dados do kaggle ([Forest Fires in Brazil](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil) que contém o número de focos de incêndios em florestas brasileiras do ano de 1998 até 2017, com objetivo de encontrar padrões nos dados, além de treinar visualizações com mapas e confecção de dashboards. [[Link para o projeto]](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html) [[Link para o código]](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil) [[Link Tableau]](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
-
-
-
-::: {.concise}
-*on-line*  
-:::
-
-### O caso Bellabeats.
-
-
-Trabalho realizado buscando a melhoria do funcionamento do Fitibit, um fitness Tracker da Belabeats, através da identificação de tendências de uso. Para tanto foram analisados os dados contidos na base do kaggle [*FitBit Fitness Tracker Data*](https://www.kaggle.com/arashnic/fitbit) acerca de 33 usuários. [[Link para o projeto]](https://blogdotales.netlify.app/post/2021-09-10-bellabeat/) [[Link para o código]](https://github.com/talesgomes27/blog/tree/main/content/blog/2021-09-10-bellabeat)
-
-
-::: {.concise}
-*on-line*    
-:::
-
-## Cursos {data-icon="laptop"}
-
-### Big Data Analytics com R e Microsoft Azure Machine Learning
-
-Data Science Academy
-
-[*on-line*](https://drive.google.com/file/d/1A-UYJCoR1tN-tBXzlY7l7kEcW3eWngsU/view)
-
-2022
-
-### Data Scientist with R Track
-
-Datacamp
-
-[*on-line*](https://www.datacamp.com/statement-of-accomplishment/track/a9016d69abe20cb29a67dd90d47fb4da72820653)
-
-2022
-
-### Data Analyst with R Track
-
-Datacamp
-
-[*on-line*](https://www.datacamp.com/statement-of-accomplishment/track/741d51b812064aa5d25006d194342bad0d3344db)
-
-2021
-
-### Data Science for Everyone
-
-Datacamp
-
-[*on-line*](https://www.datacamp.com/statement-of-accomplishment/course/7886ffe5588d979195cdfc398f232235b0e20c81)
-
-2021
-
-### Joining Data in SQL
-
-Datacamp
-
-[*on-line*](https://www.datacamp.com/statement-of-accomplishment/course/6f4e7c7609151a1e1b37416cafe2fbaa31d0d0f4)
-
-2021
-
-
-
-### Certificado Profissional em Análise de dados da Google.
-
-Coursera/Google
-
-[*on-line*](https://coursera.org/share/b8f00a8635126ef11eed8b4564c64cde)
-
-2021
-
-
-
-### As Ferramentas do Cientista de Dados
-
-Coursera
-
-[*on-line*](https://coursera.org/share/68bbd792642e5ab8fb9fecaff748c250)
-
-2021
-
-
-### Relatórios e visualização de dados.
-
-Curso-r
-
-[*on-line*](https://curso-r.com/cursos/visualizacao/)
-
-2021
-
-### Dashboards com Shiny
-
-Curso-r
-
-[*on-line*](https://curso-r.com/cursos/dashboards/)
-
-2021
+### Analista de Dados
 
 
 
@@ -208,6 +91,57 @@ Instituto Federal de Educação, Ciência e Tecnologia do Pará.
 Pará, Brasil
 
 2005 - 2008
+
+
+
+## Projetos {data-icon="chart-bar"}
+
+### Bikeshare: uma empresa de compartilhamento de bicicletas.
+
+::: {.concise}
+[[Link para o projeto]](https://talesgomes27.github.io/DAC8-Case-Study-1/) [[link para o código]](https://github.com/talesgomes27/DAC8-Case-Study-1)
+:::
+
+::: {.concise}
+*on-line*
+:::
+
+
+### Estudo de caso Bellabeats.
+
+::: {.concise}
+[[Link para o projeto]](https://talesgomes.netlify.app/post/2021-09-10-bellabeat/) [[Link para o código]](https://github.com/talesgomes27/blog/tree/main/content/blog/2021-09-10-bellabeat)
+:::
+
+::: {.concise}
+*on-line*    
+:::
+
+## Cursos {data-icon="laptop"}
+
+### Certificado Profissional em Análise de dados
+
+Datacamp
+
+[*on-line*](https://www.datacamp.com/certificate/DA0010574268485)
+
+2022
+
+### Certificado Profissional em Análise de dados da Google.
+
+Coursera/Google
+
+[*on-line*](https://coursera.org/share/b8f00a8635126ef11eed8b4564c64cde)
+
+2021
+
+### Big Data Analytics com R e Microsoft Azure Machine Learning
+
+Data Science Academy
+
+[*on-line*](https://drive.google.com/file/d/1A-UYJCoR1tN-tBXzlY7l7kEcW3eWngsU/view)
+
+2022
 
 
 ## Experiência Profissional {data-icon="suitcase"}
