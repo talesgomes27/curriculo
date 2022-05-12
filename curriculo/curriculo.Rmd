@@ -20,24 +20,6 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# Experiência Profissional
-
-```{r}
-library(tibble)
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Auxiliar Judiciário", "2013-Atualmente", "Tribunal de Justiça do Estado do Pará", "Pará, Brasil"
-) %>% 
-  detailed_entries(Position, Year, Institution, Where)
-``` 
-
-# Projetos
-
- * **Bikeshare: uma empresa de compartilhamento de bicicletas.** [*[Link para o projeto]*](https://talesgomes27.github.io/DAC8-Case-Study-1/)  | [*[Link para o código]*](https://github.com/talesgomes27/DAC8-Case-Study-1)
- * **NASA Fireballs Events.** [*[Link do projeto]*](https://talesgomes27.shinyapps.io/nasa_fireball/) | [*[Link do Código]*](https://github.com/talesgomes27/nasa_fireball)
- * **Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.** [*[Link para o projeto]*](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html)  |  [*[Link para o código]*](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
- * **Focos de incêndios no Brasil de 1998 a 2017.** [*[Link para  o projeto]*](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html)  |  [*[Link para o código]*](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil)  |  [*[Link para Tableau]*](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
-    
 
 # Formação
 
@@ -52,6 +34,30 @@ tribble(
   #brief_entries(Degree, Year, Institution, Where)
   detailed_entries(Degree, Year, Institution, Where)
 ```
+
+
+
+# Projetos
+
+ * **Bikeshare: uma empresa de compartilhamento de bicicletas.** [*[Link para o projeto]*](https://talesgomes27.github.io/DAC8-Case-Study-1/)  | [*[Link para o código]*](https://github.com/talesgomes27/DAC8-Case-Study-1)
+ * **NASA Fireballs Events.** [*[Link do projeto]*](https://talesgomes27.shinyapps.io/nasa_fireball/) | [*[Link do Código]*](https://github.com/talesgomes27/nasa_fireball)
+ * **Mulheres olímpicas no pós II Guerra Mundial: uma análise da participação feminina nas delegações brasileiras em olimpíadas no período de 1948 a 2016.** [*[Link para o projeto]*](https://talesgomes27.github.io/tidytuesday/tidytuesday/2021-31/tidytuesday_2021-31.html)  |  [*[Link para o código]*](https://github.com/talesgomes27/tidytuesday/tree/main/tidytuesday/2021-31)
+ * **Focos de incêndios no Brasil de 1998 a 2017.** [*[Link para  o projeto]*](https://talesgomes27.github.io/kaggle/kaggle/forest-fires-in-brazil/Forest_fires_in_Brazil.html)  |  [*[Link para o código]*](https://github.com/talesgomes27/kaggle/tree/main/kaggle/forest-fires-in-brazil)  |  [*[Link para Tableau]*](https://public.tableau.com/app/profile/tales.gomes/viz/FocosdeincndiosnoBrasil1998a2017/FocosdeincndionoBrasil)
+    
+
+
+# Experiência Profissional
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Auxiliar Judiciário", "2013-Atualmente", "Tribunal de Justiça do Estado do Pará", "Pará, Brasil"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where)
+``` 
+
+
 
 
 # Cursos
