@@ -92,6 +92,21 @@ cv_entries %>%
 ```
 
 
+## Projetos {.portfolio .nohead .vertical-top .set-width}
+```{r}
+
+cv_entries %>% 
+  filter(type == 'portfolio', is.na(one_column_paged)) %>% 
+  mutate(code = ifelse(is.na(code), "", code)) %>%
+  mutate(dashboard = ifelse(is.na(dashboard), "", dashboard)) %>%
+  mutate(project_link = ifelse(is.na(project_link), "", project_link)) %>%
+  mutate(what = str_c("<span class='work-title'>", what, ", ", project_link, ", ", dashboard, ", ", code)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
+
+
 ## Cursos {.certification .nohead .set-width}
 ```{r}
 cv_entries %>% 
