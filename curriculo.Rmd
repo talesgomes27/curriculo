@@ -1,0 +1,115 @@
+---
+title: "Tales Wilhame Gomes da Silva <br> Analista de Dados"
+output:
+  pagedown::html_paged:
+    css: ["css/one-column-paged.css", "https://use.fontawesome.com/releases/v5.7.2/css/all.css"]
+    number_sections: false
+    self_contained: true
+links-to-footnotes: false
+knit: pagedown::chrome_print
+
+---
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(knitr)
+library(lubridate)
+
+#### publications #####
+#publications <- read_csv("_content/publications.csv")
+
+#### cv entries #####
+cv_entries <- read_csv("_content/cv_entries.csv") %>% 
+  mutate(year_begin = year(date)) %>%
+  mutate(year_end = case_when(
+    date_end == "presente" ~ date_end,
+    !is.na(date_end) ~ str_sub(date_end, 1, 4),
+    is.na(date_end) ~ date_end
+  )) %>%
+  mutate(year = ifelse((is.na(year_end) | year_begin == year_end),
+                      year_begin,
+                      str_c(year_begin, " --- ", year_end)))
+
+```
+
+<div class="grid-container"> 
+<!-- top row -->
+```{block type="grid-item", echo=TRUE}
+## Resumo {.summary}
+Sou Engenheiro da computação com paixão na resolução de problemas e conhecimento em Python, R, Sql, Linux, Excel, Git e outros.
+```
+
+```{block type='grid-item', echo=TRUE}
+## Contact information {.box}
+<div class="info-box">
+
+| Center | Left |
+|:------:|:-----|
+| <i class="fas fa-map-marker-alt"></i> |Belém, Pará, Brazil|
+| <i class="fas fa-mobile-alt"></i> | +55 91 98406-9826 |
+| <i class="fas fa-envelope"></i> | talesgomes27\@gmail.com |
+| <i class="fas fa-globe"></i> | [talesgomes.netlify.app/](https://talesgomes.netlify.app/) |
+| <i class="fab fa-github"></i> | [github.com/talesgomes27/](https://github.com/talesgomes27/) |
+| <i class="fab fa-linkedin-in"></i> | [linkedin.com/in/talesgomes27/](https://www.linkedin.com/in/talesgomes27/) |
+
+ 
+</div>
+```
+
+</div>
+
+
+```{r eval=FALSE, include=FALSE}
+
+## Technical skills {.technical .nohead .set-width}
+
+cv_entries %>% 
+  filter(type == 'technical') %>% 
+  mutate(icon = case_when(
+    str_detect(what, "data analysis") ~ "fa-chart-ba",
+    str_detect(what, "research") ~ "fa-flask",
+    str_detect(what, "Web") ~ "fa-laptop"
+  )) %>% 
+  mutate(icon = str_c("<i class='fa fa-lg ", icon, "'></i>")) %>% 
+  mutate(what = str_c(what, " ", additional_info)) %>% 
+  select(icon, what) %>% 
+  kable(escape = FALSE)
+```
+
+
+
+## Educação {.education .nohead .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'education') %>% 
+  mutate(what = str_c(what, ", ", where)) %>% 
+  mutate(year = str_c(year_begin, " --- ", year_end)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
+
+## Cursos {.certification .nohead .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'certification') %>% 
+  mutate(what = str_c(what, ", ", where)) %>% 
+  mutate(year = str_c(year_begin, " --- ", year_end)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
+
+## Experiência profissional {.work .nohead .vertical-top .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'work', is.na(one_column_paged)) %>% 
+  mutate(additional_info = replace_na(additional_info, "")) %>% 
+  mutate(what = str_c("<span class='work-title'>", what, "</span><br class='work-break'>", where, "<br>", additional_info)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+

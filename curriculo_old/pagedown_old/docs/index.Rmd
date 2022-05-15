@@ -1,0 +1,169 @@
+---
+title: "Curriculo Tales"
+author: Tales Gomes
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+#
+#Abaixo para mudar da verão Html para PDF (Precisa ser automatizado)
+#
+#A versão em pdf deste currículo pode ser encontrada #[**aqui**](https://github.com/rstudio/pagedown).
+#
+#A versão *on-line* deste currículo pode ser encontrada #[**aqui**](https://github.com/rstudio/pagedown).
+#
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+
+#Objetivo
+#Meu objetivo é realizar minha transição de carreira: do serviço público para a análise de dados. Na XP, como  *business analyst*, vislumbro a possibilidade de trabalhar em um ambiente em que haja valorização do pensamento analítico, do uso da lógica e da matemática, do trabalho em equipe, da definição de metas claras e coerentes com a visão, missão e valores da empresa, com os quais me identifico. Precisei passar os últimos anos trabalhando no serviço público, pois ainda na graduação o concurso surgiu como uma oportunidade de suporte financeiro. Contudo, após o término do curso de engenharia da computação, permaneci no cargo público, sem abrir mão de dar continuidade na minha qualificação voltada para a área de dados. Na atual posição profissional percebo que já explorei todas as vias de desenvolvimento, porém preciso de mais, de novos desafios. Como engenheiro da computação sempre fui fascinado por números e resolução de problemas e me candidato a presente vaga de *business analyst* com a expectativa de evoluir, progredir e agregar.
+
+## Competências    {#skills}
+#-   <i class="fas fa-users"></i> `Trabalho em equipe`
+#-   <i class="fas fa-handshake"></i> `Responsabilidade`
+#-   <i class="far fa-compass"></i> `Capacidade de adaptação`
+#-   <i class="fas fa-chart-bar"></i> `Análise estatística de dados`
+#-   <i class="fas fa-calculator"></i> `Forte base matemática`
+#-   <i class="fas fa-user-cog"></i> `Raciocínio rápido`
+#-   <i class="fas fa-user-check"></i> `Autonomia`
+
+---
+
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+
+# Aside
+
+## Contatos {#contact}
+
+-   <i class="fas fa-map-marker-alt"></i> `Belém, Pará, Brasil.`
+-   <i class="fa fa-envelope"></i> [talesgomes27@gmail.com](mailto:talesgomes27@gmail.com){.email}
+-   <i class="fa fa-github"></i> [github.com/talesgomes27](https://github.com/talesgomes27)
+-   <i class="fa fa-linkedin"></i> [linkedin.com/in/talesgomes27](https://www.linkedin.com/in/talesgomes27/)
+-   <i class="fas fa-globe"></i> [https://talesgomes.netlify.app](https://talesgomes.netlify.app/)
+-   <span class="iconify" data-icon="simple-icons:datacamp"></span> [Datacamp profile](https://www.datacamp.com/profile/talesgomes27)
+-   <i class="fa fa-phone"></i> +55 91 98406-9826
+-   Para mais infirmações, entre em contato por e-mail.
+
+
+## Habilidades {#skills}
+
+ 
+-   <span class="iconify" data-icon="logos:r-lang"></span> `R`
+-   <span class="iconify" data-icon="ant-design:console-sql-outlined"></span> `Sql`
+-   <span class="iconify" data-icon="logos:python"></span> `Python`
+-   <span class="iconify" data-icon="logos:tableau-icon"></span> `Tableau`
+-   <span class="iconify" data-icon="logos:microsoft-power-bi"></span> `Power BI`
+-   <span class="iconify" data-icon="file-icons:microsoft-excel"></span> `Excel`
+-   <span class="iconify" data-icon="file-icons:microsoft-powerpoint"></span> `Powerpoint`
+-   <span class="iconify" data-icon="bi:git"></span> `Git`
+-   <span class="iconify" data-icon="cib:linux"></span> `Linux`
+-   <span class="iconify" data-icon="bi:windows"></span> `Windows`
+
+
+
+A versão *on-line* deste currículo pode ser encontrada [**aqui**](https://talesgomes27.github.io/curriculo/).
+
+# Main
+
+## Tales Gomes {#title}
+
+### Analista de Dados
+
+
+
+## Formação {data-icon="graduation-cap" data-concise="true"}
+
+### Bacharelado em Engenharia da Computação
+
+Universidade Federal do Pará
+
+Pará, Brasil
+
+2009 - 2016
+
+
+### Curso Técnico em Mecânica, integrado ao ensino médio.
+
+Instituto Federal de Educação, Ciência e Tecnologia do Pará.
+
+Pará, Brasil
+
+2005 - 2008
+
+
+
+## Projetos {data-icon="chart-bar"}
+
+### Bikeshare: uma empresa de compartilhamento de bicicletas.
+
+::: {.concise}
+[[Link para o projeto]](https://talesgomes27.github.io/DAC8-Case-Study-1/) [[link para o código]](https://github.com/talesgomes27/DAC8-Case-Study-1)
+:::
+
+::: {.concise}
+*on-line*
+:::
+
+
+### Estudo de caso Bellabeats.
+
+::: {.concise}
+[[Link para o projeto]](https://talesgomes.netlify.app/post/2021-09-10-bellabeat/) [[Link para o código]](https://github.com/talesgomes27/blog/tree/main/content/blog/2021-09-10-bellabeat)
+:::
+
+::: {.concise}
+*on-line*    
+:::
+
+## Cursos {data-icon="laptop"}
+
+### Certificado Profissional em Análise de dados
+
+Datacamp
+
+[*on-line*](https://www.datacamp.com/certificate/DA0010574268485)
+
+2022
+
+### Certificado Profissional em Análise de dados da Google.
+
+Coursera/Google
+
+[*on-line*](https://coursera.org/share/b8f00a8635126ef11eed8b4564c64cde)
+
+2021
+
+### Big Data Analytics com R e Microsoft Azure Machine Learning
+
+Data Science Academy
+
+[*on-line*](https://drive.google.com/file/d/1A-UYJCoR1tN-tBXzlY7l7kEcW3eWngsU/view)
+
+2022
+
+
+## Experiência Profissional {data-icon="suitcase"}
+
+### Servidor Público
+
+Tribunal de Justiça do Estado do Pará
+
+Pará, Brasil
+
+2013 - Atualmente
+
+::: {.concise}
+-   Atendimento ao Público
+-   Confecção de documentos: certidões, mandados, ofícios e outros.
+-   Análise de processos judiciais.
+:::
+
+
+
+
+
+
+
+
