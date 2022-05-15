@@ -85,7 +85,8 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'education') %>% 
-  mutate(what = str_c(what, ", ", where)) %>% 
+  arrange(desc(date_end)) %>%
+  mutate(what = str_c(what, "<br>", where)) %>% 
   mutate(year = str_c(year_begin, " --- ", year_end)) %>% 
   select(year, what) %>% 
   kable()
@@ -96,7 +97,7 @@ cv_entries %>%
 ```{r}
 
 cv_entries %>% 
-  filter(type == 'portfolio', is.na(one_column_paged)) %>% 
+  filter(type == 'portfolio', is.na(one_column_paged)) %>%
   mutate(code = ifelse(is.na(code), "", code)) %>%
   mutate(dashboard = ifelse(is.na(dashboard), "", dashboard)) %>%
   mutate(project_link = ifelse(is.na(project_link), "", project_link)) %>%
@@ -111,6 +112,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'certification') %>% 
+  arrange(desc(date_end)) %>%
   mutate(what = str_c(what, ", ", where)) %>% 
   mutate(year = str_c(year_begin, " --- ", year_end)) %>% 
   select(year, what) %>% 
