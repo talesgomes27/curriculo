@@ -39,7 +39,7 @@ cv_entries <- read_csv("_content/cv_entries.csv") %>%
 <!-- top row -->
 ```{block type="grid-item", echo=TRUE}
 ## Resumo {.summary}
-Sou Engenheiro da computação com paixão na resolução de problemas e conhecimento em Python, R, Sql, Linux, Excel, Git e outros.
+Sou Engenheiro da computação com conhecimento em Python, R, Sql, Linux, Excel, Git e outros.
 ```
 
 ```{block type='grid-item', echo=TRUE}
