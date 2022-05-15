@@ -100,7 +100,7 @@ cv_entries %>%
   mutate(code = ifelse(is.na(code), "", code)) %>%
   mutate(dashboard = ifelse(is.na(dashboard), "", dashboard)) %>%
   mutate(project_link = ifelse(is.na(project_link), "", project_link)) %>%
-  mutate(what = str_c("<span class='work-title'>", what, ", ", project_link, ", ", dashboard, ", ", code)) %>% 
+  mutate(what = str_c("<span class='work-title'>", what, ", ", project_link, "  ", dashboard, "  ", code)) %>% 
   select(year, what) %>% 
   kable()
 ```
