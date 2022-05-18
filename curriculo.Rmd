@@ -11,6 +11,7 @@ knit: pagedown::chrome_print
 ---
 
 
+
 ```{r setup, include=FALSE}
 
 knitr::opts_chunk$set(echo = FALSE)
@@ -46,12 +47,15 @@ Sou Engenheiro da computação com conhecimento em Python, R, Sql, Power BI, Tab
 ## Contact information {.box}
 <div class="info-box">
 
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
 | Center | Left |
 |:------:|:-----|
 | <i class="fas fa-map-marker-alt"></i> |Belém, Pará, Brazil|
 | <i class="fas fa-mobile-alt"></i> | +55 91 98406-9826 |
 | <i class="fas fa-envelope"></i> | talesgomes27\@gmail.com |
 | <i class="fas fa-globe"></i> | [talesgomes.netlify.app/](https://talesgomes.netlify.app/) |
+| <i class="fas fa-user-circle"></i> | [datacamp.com/profile/talesgomes27](https://www.datacamp.com/profile/talesgomes27) |
 | <i class="fab fa-github"></i> | [github.com/talesgomes27/](https://github.com/talesgomes27/) |
 | <i class="fab fa-linkedin-in"></i> | [linkedin.com/in/talesgomes27/](https://www.linkedin.com/in/talesgomes27/) |
 
