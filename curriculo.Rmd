@@ -52,7 +52,7 @@ Sou Engenheiro da computação com conhecimento em Python, R, Sql, Power BI, Tab
 | <i class="fas fa-user-circle"></i> | [datacamp.com/profile/talesgomes27](https://www.datacamp.com/profile/talesgomes27) |
 | <i class="fab fa-github"></i> | [github.com/talesgomes27/](https://github.com/talesgomes27/) |
 | <i class="fab fa-linkedin-in"></i> | [linkedin.com/in/talesgomes27/](https://www.linkedin.com/in/talesgomes27/) |
-| <i class="fas fa-file"></i> | [Currículo em ingês](https://talesgomes27.github.io/curriculo/) |
+| <i class="fas fa-file"></i> | [Currículo em inglês](https://talesgomes27.github.io/curriculo/) |
  
 </div>
 ```
