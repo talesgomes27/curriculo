@@ -1,0 +1,115 @@
+---
+title: "Tales Wilhame Gomes da Silva <br> Data Analyst"
+output:
+  pagedown::html_paged:
+    css: ["css/one-column-paged.css", "https://use.fontawesome.com/releases/v5.7.2/css/all.css"]
+    number_sections: false
+    self_contained: true
+links-to-footnotes: false
+knit: pagedown::chrome_print
+
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(knitr)
+library(lubridate)
+#### publications #####
+#publications <- read_csv("_content/publications.csv")
+#### cv entries #####
+cv_entries <- read_csv("_content/cv_entries_en.csv") %>% 
+  mutate(year_begin = year(date)) %>%
+  mutate(year_end = case_when(
+    date_end == "presente" ~ date_end,
+    !is.na(date_end) ~ str_sub(date_end, 1, 4),
+    is.na(date_end) ~ date_end
+  )) %>%
+  mutate(year = ifelse((is.na(year_end) | year_begin == year_end),
+                      year_begin,
+                      str_c(year_begin, " --- ", year_end)))
+```
+
+<div class="grid-container"> 
+<!-- top row -->
+```{block type="grid-item", echo=TRUE}
+## Summary {.summary}
+I am a Computer Engineer with knowledge in Python, R, Sql, Power BI, Tableau, Linux, Excel, Git and others.
+```
+
+```{block type='grid-item', echo=TRUE}
+## Contact information {.box}
+<div class="info-box">
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+| Center | Left |
+|:------:|:-----|
+| <i class="fas fa-map-marker-alt"></i> |Belém, Pará, Brazil|
+| <i class="fas fa-mobile-alt"></i> | +55 91 98406-9826 |
+| <i class="fas fa-envelope"></i> | talesgomes27\@gmail.com |
+| <i class="fas fa-globe"></i> | [talesgomes.netlify.app/](https://talesgomes.netlify.app/) |
+| <i class="fas fa-user-circle"></i> | [datacamp.com/profile/talesgomes27](https://www.datacamp.com/profile/talesgomes27) |
+| <i class="fab fa-github"></i> | [github.com/talesgomes27/](https://github.com/talesgomes27/) |
+| <i class="fab fa-linkedin-in"></i> | [linkedin.com/in/talesgomes27/](https://www.linkedin.com/in/talesgomes27/) |
+| <i class="fas fa-file"></i> | [Resume in portuguese](https://talesgomes27.github.io/curriculo/resume.html) |
+ 
+</div>
+```
+
+</div>
+
+
+
+
+## Education {.education .nohead .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'education') %>% 
+  arrange(desc(date_end)) %>%
+  mutate(what = str_c(what, "<br>", where)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
+
+
+
+## Projects {.portfolio .nohead .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'portfolio') %>%
+  arrange(desc(date_end)) %>%
+  mutate(code = ifelse(is.na(code), "", code)) %>%
+  mutate(dashboard = ifelse(is.na(dashboard), "", dashboard)) %>%
+  mutate(project_link = ifelse(is.na(project_link), "", project_link)) %>%
+  mutate(what = str_c(what, ", ", project_link, "  ", dashboard, "  ", code)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
+
+
+## Certification {.certification .nohead .set-width}
+```{r}
+cv_entries %>% 
+  arrange(desc(date_end)) %>%
+  filter(type == 'certification') %>% 
+  arrange(desc(date_end)) %>%
+  mutate(what = str_c(what, ", ", where)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
+
+## Professional experience {.work .nohead .vertical-top .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'work', is.na(one_column_paged)) %>% 
+  arrange(desc(date_end)) %>%
+  mutate(additional_info = replace_na(additional_info, "")) %>% 
+  mutate(what = str_c("<span class='work-title'>", what, "</span><br class='work-break'>", where, "<br>", additional_info)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
