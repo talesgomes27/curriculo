@@ -132,10 +132,14 @@ h2.box {
   display: block;
 }
 
+
+/*
 .set-width td:first-child {
   width: 20%;
   text-align: left;
 }
+*/
+
 
 .publications td,
 .talks td {
