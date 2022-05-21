@@ -30,6 +30,7 @@ cv_entries <- read_csv("_content/cv_entries.csv") %>%
   mutate(year = ifelse((is.na(year_end) | year_begin == year_end),
                       year_begin,
                       str_c(year_begin, " --- ", year_end)))
+
 ```
 
 <div class="grid-container"> 
@@ -45,14 +46,11 @@ Sou Engenheiro da computação com conhecimento em Python, R, Sql, Power BI, Tab
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 | Center | Left |
 |:------:|:-----|
-| <span class="iconify" data-icon="ic:baseline-place"></span> |Belém, Pará, Brazil|
-| <span class="iconify" data-icon="clarity:mobile-phone-solid"></span> | +55 91 98406-9826 |
 | <span class="iconify" data-icon="entypo:email"></span> | talesgomes27\@gmail.com |
 | <span class="iconify" data-icon="dashicons:admin-site"></span> | [talesgomes.netlify.app/](https://talesgomes.netlify.app/) |
 | <span class="iconify" data-icon="simple-icons:datacamp"></span> | [datacamp.com/profile/talesgomes27](https://www.datacamp.com/profile/talesgomes27) |
 | <span class="iconify" data-icon="codicon:github"></span> | [github.com/talesgomes27/](https://github.com/talesgomes27/) |
 | <span class="iconify" data-icon="akar-icons:linkedin-box-fill"></span> | [linkedin.com/in/talesgomes27/](https://www.linkedin.com/in/talesgomes27/) |
-| <span class="iconify" data-icon="bi:person-circle"></span> | [Currículo em inglês](https://talesgomes27.github.io/curriculo/resume.html) |
  
 </div>
 ```
@@ -60,24 +58,11 @@ Sou Engenheiro da computação com conhecimento em Python, R, Sql, Power BI, Tab
 </div>
 
 
-
-## <span class="iconify" data-icon="zondicons:education"></span> Educação {.education .nohead .set-width}
-```{r}
-cv_entries %>% 
-  filter(type == 'education') %>% 
-  arrange(desc(date_end)) %>%
-  mutate(what = str_c(what, ", ", where)) %>% 
-  select(year, what) %>% 
-  kable()
-```
-
-
-
-
 ## <span class="iconify" data-icon="eos-icons:big-data"></span> Projetos {.portfolio .nohead .set-width}
 ```{r}
 cv_entries %>% 
   filter(type == 'portfolio') %>%
+  arrange(desc(date_end)) %>%
   mutate(code = ifelse(is.na(code), "", code)) %>%
   mutate(dashboard = ifelse(is.na(dashboard), "", dashboard)) %>%
   mutate(project_link = ifelse(is.na(project_link), "", project_link)) %>%
@@ -103,9 +88,21 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'work', is.na(one_column_paged)) %>% 
+  arrange(desc(date_end)) %>%
   mutate(additional_info = replace_na(additional_info, "")) %>% 
   mutate(what = str_c("<span class='work-title'>", what, "</span>", ", ", "<span class='work-place'>", where, "</span><br class='work-break'>", additional_info)) %>% 
   select(year, what) %>% 
   kable()
 ```
+
+## <span class="iconify" data-icon="zondicons:education"></span> Educação {.education .nohead .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'education') %>% 
+  arrange(desc(date_end)) %>%
+  mutate(what = str_c(what, ", ", where)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
 

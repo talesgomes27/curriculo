@@ -241,38 +241,14 @@ td {
   @top-right {
     content: none;
   }
+  @bottom-left {
+    content: none;
+  }
   @bottom-right {
     content: counter(page);
   }
 }
 .pagedjs_margin.pagedjs_margin-bottom-right.hasContent {
   align-items: baseline;
-}
-
-
-/* Links Styling */
-
-
-/* unvisited link */
-a:link {
- color: var(--link-color);
-}
-
-
-/* mouse over link */
-a:hover {
-  color: var(--link-hover);
-}
-
-
-/* visited link */
-a:visited {
-  color: var(--link-color);
-}
-
-
-/* selected link */
-a:active {
-  color: var(--link-color);
 }
 

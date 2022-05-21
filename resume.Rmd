@@ -23,7 +23,7 @@ library(lubridate)
 cv_entries <- read_csv("_content/cv_entries_en.csv") %>% 
   mutate(year_begin = year(date)) %>%
   mutate(year_end = case_when(
-    date_end == "presente" ~ date_end,
+    date_end == "present" ~ date_end,
     !is.na(date_end) ~ str_sub(date_end, 1, 4),
     is.na(date_end) ~ date_end
   )) %>%
@@ -45,34 +45,16 @@ I am a Computer Engineer with knowledge in Python, R, Sql, Power BI, Tableau, Li
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 | Center | Left |
 |:------:|:-----|
-| <span class="iconify" data-icon="ic:baseline-place"></span> |Belém, Pará, Brazil|
-| <span class="iconify" data-icon="clarity:mobile-phone-solid"></span> | +55 91 98406-9826 |
 | <span class="iconify" data-icon="entypo:email"></span> | talesgomes27\@gmail.com |
 | <span class="iconify" data-icon="dashicons:admin-site"></span> | [talesgomes.netlify.app/](https://talesgomes.netlify.app/) |
 | <span class="iconify" data-icon="simple-icons:datacamp"></span> | [datacamp.com/profile/talesgomes27](https://www.datacamp.com/profile/talesgomes27) |
 | <span class="iconify" data-icon="codicon:github"></span> | [github.com/talesgomes27/](https://github.com/talesgomes27/) |
 | <span class="iconify" data-icon="akar-icons:linkedin-box-fill"></span> | [linkedin.com/in/talesgomes27/](https://www.linkedin.com/in/talesgomes27/) |
-| <span class="iconify" data-icon="bi:person-circle"></span> | [Resume in portuguese](https://talesgomes27.github.io/curriculo/) |
  
 </div>
 ```
 
 </div>
-
-
-
-
-## <span class="iconify" data-icon="zondicons:education"></span> Education {.education .nohead .set-width}
-```{r}
-cv_entries %>% 
-  filter(type == 'education') %>% 
-  arrange(desc(date_end)) %>%
-  mutate(what = str_c(what, ", ", where)) %>% 
-  select(year, what) %>% 
-  kable()
-```
-
-
 
 
 ## <span class="iconify" data-icon="eos-icons:big-data"></span> Projects {.portfolio .nohead .set-width}
@@ -111,4 +93,16 @@ cv_entries %>%
   select(year, what) %>% 
   kable()
 ```
+
+
+## <span class="iconify" data-icon="zondicons:education"></span> Education {.education .nohead .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'education') %>% 
+  arrange(desc(date_end)) %>%
+  mutate(what = str_c(what, ", ", where)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
 
