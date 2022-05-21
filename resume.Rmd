@@ -52,7 +52,7 @@ I am a Computer Engineer with knowledge in Python, R, Sql, Power BI, Tableau, Li
 | <span class="iconify" data-icon="simple-icons:datacamp"></span> | [datacamp.com/profile/talesgomes27](https://www.datacamp.com/profile/talesgomes27) |
 | <span class="iconify" data-icon="codicon:github"></span> | [github.com/talesgomes27/](https://github.com/talesgomes27/) |
 | <span class="iconify" data-icon="akar-icons:linkedin-box-fill"></span> | [linkedin.com/in/talesgomes27/](https://www.linkedin.com/in/talesgomes27/) |
-| <span class="iconify" data-icon="bi:person-circle"></span> | [Currículo em inglês](https://talesgomes27.github.io/curriculo/) |
+| <span class="iconify" data-icon="bi:person-circle"></span> | [Resume in portuguese](https://talesgomes27.github.io/curriculo/) |
  
 </div>
 ```
