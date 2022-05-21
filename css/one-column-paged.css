@@ -1,4 +1,5 @@
 /* THIS CREATES BASIC PAGED LAYOUT IN COMBINATION WITH PAGED.HTML */
+
 @page{
   size: A4 portrait;
 }
@@ -8,7 +9,7 @@ body {
 }
 
 :root{
-  --page-width: 8.5in;
+  --page-width: 9.5in;
   --pagedjs-margin-right: 0.7in;
   --pagedjs-margin-left: 0.7in;
   --pagedjs-margin-top: 0.5in;
@@ -16,7 +17,42 @@ body {
   --root-font-size: 12pt;
   --viewer-pages-spacing: 12px;
   --viewer-shadow-color: #313131; /* this marks the pages */
+  --link-color: #0F4C75; /*link color*/
+  --link-hover: #3282B8; /* link hover */
+  --box-backgroud-color: #BBE1FA; /* box backgroud */
 }
+
+
+
+/*          LINK STYLING                   */
+
+
+/* unvisited link */
+a:link {
+ color: var(--link-color);
+}
+
+
+/* mouse over link */
+a:hover {
+  color: var(--link-hover);
+}
+
+
+/* visited link */
+a:visited {
+  color: var(--link-color);
+}
+
+
+/* selected link */
+a:active {
+  color: var(--link-color);
+}
+
+/*           END LINK STYLING              */
+
+
 
 /* Paged.js viewer */
 @media screen {
@@ -52,10 +88,23 @@ br.pageBreak {
 
 
 /* remove decoration on info-box */
-.info-box a {
+.info-box a:link {
   color: black;
   text-decoration: none;
 }
+.info-box a:visited {
+  color: black;
+  text-decoration: none;
+}
+.info-box a:hover {
+  color: black;
+  text-decoration: none;
+}
+.info-box a:active {
+  color: black;
+  text-decoration: none;
+}
+
 
 
 p, li {
@@ -73,7 +122,7 @@ h1.title {
 
 /* section headers */
 h2 {
-  color: #710C0C;
+  /*color: #710C0C;*/
   border-bottom: 1px solid black;
   margin-top: 0.6em;
   margin-bottom: 0.3em;
@@ -89,12 +138,16 @@ h2.box {
   margin-bottom: 0;
 }
 
+.summary{
+  text-align: justify;
+}
+
 .box {
   visibility: hidden;
   margin-bottom: 0;
 }
 .info-box {
-  background-color: #F5DD9E;
+  background-color: var(--box-backgroud-color);
   padding: 10px 2px;
   margin: 0;
   line-height: 125%;
@@ -171,6 +224,9 @@ td {
 .work-title {
   font-size: 1.2em;
 }
+.work-place {
+  font-size: 1em;
+}
 .work-break {
   height: 100px;
 }
@@ -192,3 +248,31 @@ td {
 .pagedjs_margin.pagedjs_margin-bottom-right.hasContent {
   align-items: baseline;
 }
+
+
+/* Links Styling */
+
+
+/* unvisited link */
+a:link {
+ color: var(--link-color);
+}
+
+
+/* mouse over link */
+a:hover {
+  color: var(--link-hover);
+}
+
+
+/* visited link */
+a:visited {
+  color: var(--link-color);
+}
+
+
+/* selected link */
+a:active {
+  color: var(--link-color);
+}
+
