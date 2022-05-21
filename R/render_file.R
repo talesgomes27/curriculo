@@ -1,6 +1,6 @@
   
   
-  # Portuguese
+####### Portuguese ##########
   
   # Render Rmarkdown Html
   rmarkdown::render(input = "curriculo.Rmd", output_file = "docs/index.html")
@@ -25,7 +25,7 @@
   
   
   
-  # English
+####### English ##########
   
   
   
