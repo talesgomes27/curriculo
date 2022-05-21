@@ -22,6 +22,40 @@ body {
   --box-backgroud-color: #BBE1FA; /* box backgroud */
 }
 
+/* LANGUAGE TOGLE */
+
+.lang-toggle{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+}
+
+.lang-toggle a:link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.lang-toggle a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.lang-toggle a:hover {
+  color: var(--link-hover);
+  text-decoration: underline ;
+}
+.lang-toggle a:active {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
 
 
 /*          LINK STYLING                   */
@@ -36,6 +70,7 @@ a:link {
 /* mouse over link */
 a:hover {
   color: var(--link-hover);
+   font-weight: bold;
 }
 
 
@@ -91,18 +126,22 @@ br.pageBreak {
 .info-box a:link {
   color: black;
   text-decoration: none;
+  font-weight: normal;
 }
 .info-box a:visited {
   color: black;
   text-decoration: none;
+  font-weight: normal;
 }
 .info-box a:hover {
-  color: black;
-  text-decoration: none;
+  color: var(--link-hover);
+  text-decoration: underline;
+  font-weight: normal;
 }
 .info-box a:active {
   color: black;
   text-decoration: none;
+  font-weight: normal;
 }
 
 
@@ -251,4 +290,5 @@ td {
 .pagedjs_margin.pagedjs_margin-bottom-right.hasContent {
   align-items: baseline;
 }
+
 

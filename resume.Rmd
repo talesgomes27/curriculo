@@ -2,12 +2,12 @@
 title: "Tales Wilhame Gomes da Silva <br> Data Analyst"
 output:
   pagedown::html_paged:
-    css: ["css/one-column-paged.css", "https://use.fontawesome.com/releases/v5.7.2/css/all.css"]
+    css: ["css/one-column-paged.css"]
     number_sections: false
     self_contained: true
 links-to-footnotes: false
 knit: pagedown::chrome_print
-
+# CSS FONTAWSOME ->  "https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 ---
 
 
@@ -17,8 +17,12 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(knitr)
 library(lubridate)
+
+
 #### publications #####
 #publications <- read_csv("_content/publications.csv")
+
+
 #### cv entries #####
 cv_entries <- read_csv("_content/cv_entries_en.csv") %>% 
   mutate(year_begin = year(date)) %>%
@@ -31,6 +35,13 @@ cv_entries <- read_csv("_content/cv_entries_en.csv") %>%
                       year_begin,
                       str_c(year_begin, " --- ", year_end)))
 ```
+
+
+<span class="lang-toggle">
+    <a href="https://talesgomes27.github.io/curriculo/">PT-BR</a>
+</span>
+
+
 
 <div class="grid-container"> 
 <!-- top row -->
