@@ -76,8 +76,9 @@ cv_entries %>%
   mutate(code = ifelse(is.na(code), "", code)) %>%
   mutate(dashboard = ifelse(is.na(dashboard), "", dashboard)) %>%
   mutate(project_link = ifelse(is.na(project_link), "", project_link)) %>%
-  mutate(what = str_c(what, ", ", project_link, "  ", dashboard, "  ", code)) %>% 
-  select(year, what) %>% 
+  #mutate(what = str_c(what, ", ", project_link, "  ", dashboard, "  ", code)) %>% 
+  mutate(where = str_c(project_link, "  ", dashboard, "  ", code)) %>%
+  select(year, what, where) %>% 
   kable()
 ```
 
@@ -89,8 +90,8 @@ cv_entries %>%
   arrange(desc(date_end)) %>%
   filter(type == 'certification') %>% 
   arrange(desc(date_end)) %>%
-  mutate(what = str_c(what, ", ", where)) %>% 
-  select(year, what) %>% 
+  #mutate(what = str_c(what, ", ", where)) %>% 
+  select(what, where) %>% 
   kable()
 ```
 
