@@ -5,7 +5,6 @@
   # Render Rmarkdown Html
   rmarkdown::render(input = "curriculo.Rmd", output_file = "docs/index.html")
   
-  
   # Render Rmarkdown Pdf
   pagedown::chrome_print(
     "curriculo.Rmd",
@@ -23,11 +22,7 @@
     file.remove(fn)
   }
   
-  
-  
 ####### English ##########
-  
-  
   
   # Render Rmarkdown Html
   rmarkdown::render(input = "resume.Rmd", output_file = "docs/resume.html")
@@ -49,8 +44,3 @@
     #Delete file if it exists
     file.remove(fn)
   }
-  
-  
-  
-  
-  
