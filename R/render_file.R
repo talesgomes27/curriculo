@@ -1,7 +1,9 @@
-  
-  
+# In case of error setting up Pandoc system variables
+# See zshr file
 ####### Portuguese ##########
-  
+
+
+
   # Render Rmarkdown Html
   rmarkdown::render(input = "curriculo.Rmd", output_file = "docs/index.html")
   

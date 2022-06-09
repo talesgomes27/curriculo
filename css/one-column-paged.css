@@ -5,17 +5,19 @@
 }
 
 body {
-  font-family: "Latin Modern Roman", "Book Antiqua", Palatino, serif
+  /*font-family: "Latin Modern Roman", "Book Antiqua", Palatino, serif */
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1;
 }
 
 :root{
   --page-width: 9.5in;
-  --pagedjs-margin-right: 0.7in;
-  --pagedjs-margin-left: 0.7in;
-  --pagedjs-margin-top: 0.5in;
-  --pagedjs-margin-bottom: 0.5in;
-  --root-font-size: 12pt;
-  --viewer-pages-spacing: 12px;
+  --pagedjs-margin-right: 0.5in;
+  --pagedjs-margin-left: 0.5in;
+  --pagedjs-margin-top: 0.3in;
+  --pagedjs-margin-bottom: 0.3in;
+  --root-font-size: 11pt;
+  --viewer-pages-spacing: 11px;
   --viewer-shadow-color: #313131; /* this marks the pages */
   --link-color: #0F4C75; /*link color*/
   --link-hover: #3282B8; /* link hover */

@@ -66,6 +66,18 @@ Sou Engenheiro da computação com conhecimento em Python, R, Sql, Power BI, Tab
 </div>
 
 
+## <span class="iconify" data-icon="zondicons:education"></span> Educação {.education .nohead .set-width}
+```{r}
+cv_entries %>% 
+  filter(type == 'education') %>% 
+  arrange(desc(date_end)) %>%
+  mutate(what = str_c(what, ", ", where)) %>% 
+  select(year, what) %>% 
+  kable()
+```
+
+
+
 ## <span class="iconify" data-icon="eos-icons:big-data"></span> Projetos {.portfolio .nohead .set-width}
 ```{r}
 cv_entries %>% 
@@ -103,15 +115,3 @@ cv_entries %>%
   select(year, what) %>% 
   kable()
 ```
-
-## <span class="iconify" data-icon="zondicons:education"></span> Educação {.education .nohead .set-width}
-```{r}
-cv_entries %>% 
-  filter(type == 'education') %>% 
-  arrange(desc(date_end)) %>%
-  mutate(what = str_c(what, ", ", where)) %>% 
-  select(year, what) %>% 
-  kable()
-```
-
-
