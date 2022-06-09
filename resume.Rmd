@@ -75,7 +75,7 @@ cv_entries %>%
   filter(type == 'education') %>% 
   arrange(desc(date_end)) %>%
   mutate(what = str_c(what, ", ", where)) %>% 
-  select(year, what) %>% 
+  select(year_end, what) %>% 
   kable()
 ```
 
@@ -111,7 +111,7 @@ cv_entries %>%
 ## <span class="iconify" data-icon="ic:baseline-work"></span> Professional experience {.work .nohead .vertical-top .set-width}
 ```{r}
 cv_entries %>% 
-  filter(type == 'work', is.na(one_column_paged)) %>% 
+  filter(type == 'work') %>% 
   mutate(additional_info = replace_na(additional_info, "")) %>% 
   mutate(what = str_c("<span class='work-title'>", what, "</span>", ", ", "<span class='work-place'>", where, "</span><br class='work-break'>", additional_info)) %>% 
   select(year, what) %>% 
