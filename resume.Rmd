@@ -47,7 +47,7 @@ cv_entries <- read_csv("_content/cv_entries_en.csv") %>%
 <!-- top row -->
 ```{block type="grid-item", echo=TRUE}
 ## Summary {.summary}
-I am a Computer Engineer with knowledge in Python, R, Sql, Power BI, Tableau, Linux, Excel, Git and others.
+I am a Computer Engineer with knowledge in Python, R, Sql, Power BI, Tableau, Linux, Excel, Git and others. A larger list of projects can be found at the [link](https://talesgomes27.github.io/datacamp_projects/).
 ```
 
 ```{block type='grid-item', echo=TRUE}

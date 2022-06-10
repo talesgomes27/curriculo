@@ -45,7 +45,7 @@ cv_entries <- read_csv("_content/cv_entries.csv") %>%
 <!-- top row -->
 ```{block type="grid-item", echo=TRUE}
 ## Resumo {.summary}
-Sou Engenheiro da computação com conhecimento em Python, R, Sql, Power BI, Tableau, Linux, Excel, Git e outros.
+Sou Engenheiro da computação com conhecimento em Python, R, Sql, Power BI, Tableau, Linux, Excel, Git e outros. Uma lista de projetos pode ser encontrados no [link](https://talesgomes27.github.io/datacamp_projects/).
 ```
 
 ```{block type='grid-item', echo=TRUE}
